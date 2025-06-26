@@ -1,0 +1,21 @@
+# PyCharm 项目配置文件
+.idea/
+*.iml
+*.pyc
+__pycache__
+*.log
+
+# 虚拟环境相关
+env/
+venv/
+ENV/
+.env
+
+# 安装包相关
+dist/
+build/
+*.egg-info/
+
+# 操作系统相关
+.DS_Store
+Thumbs.db
