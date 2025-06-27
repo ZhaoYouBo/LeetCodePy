@@ -12,7 +12,8 @@ class TwoSum:
     Solution class for TwoSum problem.
     """
 
-    def twoSum(self, nums: List[int], target: int) -> List[int]:
+    @staticmethod
+    def two_sum(nums: List[int], target: int) -> List[int]:
         """
         Find two elements in `nums` that sum up to `target`, and return their indices.
 
@@ -33,4 +34,4 @@ class TwoSum:
 if __name__ == "__main__":
     # Test case: [2,7,11,15], target = 9
     two_sum = TwoSum()
-    print(two_sum.twoSum([2, 7, 11, 15], 9))  # Expected output: [0, 1]
+    print(two_sum.two_sum([2, 7, 11, 15], 9))  # Expected output: [0, 1]
