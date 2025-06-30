@@ -9,7 +9,7 @@ from typing import List
 
 class TwoSum:
     """
-    Solution class for TwoSum problem.
+    Solution class for Two Sum problem.
     """
 
     @staticmethod
