@@ -25,13 +25,15 @@ class TwoSum:
             List[int]: A list containing the indices of the two elements.
         """
         for i in range(len(nums)):
-            for j in range(i + 1, len(nums)):  # Avoid using same element twice
+            for j in range(i + 1, len(nums)):
                 if nums[i] + nums[j] == target:
-                    return [i, j]  # Return first valid pair found
-        return []  # Return empty list if no solution found
+                    return [i, j]
+        return []
+
+def main():
+    two_sum = TwoSum()
+    print(two_sum.two_sum([2, 7, 11, 15], 9))
 
 
 if __name__ == "__main__":
-    # Test case: [2,7,11,15], target = 9
-    two_sum = TwoSum()
-    print(two_sum.two_sum([2, 7, 11, 15], 9))  # Expected output: [0, 1]
+    main()
