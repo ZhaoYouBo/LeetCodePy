@@ -34,9 +34,9 @@ class GroupAnagrams:
                 dictionary[sorted_word] = [word]
         return list(dictionary.values())
 
-def main():
+def test():
     group_anagrams = GroupAnagrams()
     print(group_anagrams.group_anagrams(["eat", "tea", "tan", "ate", "nat", "bat"]))
 
 if __name__ == "__main__":
-    main()
+    test()

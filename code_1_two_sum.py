@@ -30,10 +30,10 @@ class TwoSum:
                     return [i, j]
         return []
 
-def main():
+def test():
     two_sum = TwoSum()
     print(two_sum.two_sum([2, 7, 11, 15], 9))
 
 
 if __name__ == "__main__":
-    main()
+    test()
