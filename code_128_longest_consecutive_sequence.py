@@ -1,20 +1,20 @@
 """
-Brief: Longest Consecutive Sequence problem solution.
+Brief: LeetCode Longest Consecutive Sequence problem solution.
 Author: ZhaoRongBo
 Date: 2024-07-01
-Version: 1.0
 """
 
 from typing import List
 
-class LongestConsecutiveSequence:
-
+class Solution:
     @staticmethod
     def longest_consecutive(nums: List[int]) -> int:
         """
-        Description: Find the length of the longest consecutive sequence in a given list of numbers.
+        Find the length of the longest consecutive sequence in a given list of numbers.
+
         Parameters:
             nums (List[int]): A list of integers.
+
         Returns:
             int: The length of the longest consecutive sequence.
         """
@@ -33,7 +33,7 @@ class LongestConsecutiveSequence:
 
 def test():
     nums = [100, 4, 200, 1, 3, 2]
-    print(LongestConsecutiveSequence.longest_consecutive(nums))
+    print(Solution.longest_consecutive(nums))
 
 if __name__ == "__main__":
     test()

@@ -1,22 +1,18 @@
 """
-Brief: Group Anagrams problem solution.
+Brief: LeetCode Group Anagrams problem solution.
 Author: ZhaoRongBo
 Date: 2024-06-30
-Version: 1.0
 """
+
 from typing import List
 
-
-class GroupAnagrams:
-    """
-    Solution class for Group Anagrams problem.
-    """
+class Solution:
     @staticmethod
     def group_anagrams(strs: List[str]) -> List[List[str]]:
         """
         Groups anagrams together.
 
-        Args:
+        Parameters:
             strs (List[str]): List of strings.
 
         Returns:
@@ -35,8 +31,7 @@ class GroupAnagrams:
         return list(dictionary.values())
 
 def test():
-    group_anagrams = GroupAnagrams()
-    print(group_anagrams.group_anagrams(["eat", "tea", "tan", "ate", "nat", "bat"]))
+    print(Solution.group_anagrams(["eat", "tea", "tan", "ate", "nat", "bat"]))
 
 if __name__ == "__main__":
     test()

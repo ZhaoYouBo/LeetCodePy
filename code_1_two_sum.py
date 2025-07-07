@@ -1,17 +1,12 @@
 """
-Brief: Two Sum problem solution.
+Brief: LeetCode Two Sum problem solution.
 Author: ZhaoRongBo
 Date: 2024-06-26
-Version: 1.0
 """
 
 from typing import List
 
-class TwoSum:
-    """
-    Solution class for Two Sum problem.
-    """
-
+class Solution:
     @staticmethod
     def two_sum(nums: List[int], target: int) -> List[int]:
         """
@@ -31,8 +26,7 @@ class TwoSum:
         return []
 
 def test():
-    two_sum = TwoSum()
-    print(two_sum.two_sum([2, 7, 11, 15], 9))
+    print(Solution.two_sum([2, 7, 11, 15], 9))
 
 
 if __name__ == "__main__":

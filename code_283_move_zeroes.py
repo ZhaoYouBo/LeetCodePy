@@ -1,18 +1,18 @@
 """
-Brief: Move Zeroes problem solution.
+Brief: LeetCode Move Zeroes problem solution.
 Author: ZhaoRongBo
 Date: 2024-07-03
-Version: 1.0
 """
+
 from typing import List
 
-class MoveZeroes:
+class Solution:
     @staticmethod
     def move_zeroes(nums: List[int]) -> None:
         """
         Move all zeroes to the end of the list.
 
-        Args:
+        Parameters:
             nums (List[int]): The list of integers.
 
         Returns:
@@ -24,7 +24,7 @@ class MoveZeroes:
 
 def test():
     nums = [0, 1, 0, 3, 12]
-    MoveZeroes.move_zeroes(nums)
+    Solution.move_zeroes(nums)
     print(nums)
 
 if __name__ == "__main__":
